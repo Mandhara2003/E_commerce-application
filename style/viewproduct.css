@@ -1,0 +1,63 @@
+body {
+    background-color: #ffffff; /* Light background */
+    font-family: Arial, sans-serif; /* Basic font */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .product-cnt {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+     /* Add some padding for visual separation */
+  }
+  
+  .product-cnt img {
+    width: 400px;
+    height: 600px;
+    border: 1px solid #ddd;
+    justify-content: center;
+    
+  }
+  
+  .review-cnt {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f2f2f2; /* Slightly lighter gray background for reviews */
+    margin-right: 20px; /* Add some margin for separation */
+  }
+  
+  .add-to-cart {
+    background-color: #008000; /* Green buy now button */
+    color: white;
+    border: none; /* Remove border */
+    width: 120px;
+    height: 40px;
+    border-radius: 5px; /* Rounded corners for a more modern look */
+    font-weight: bold; /* Make button text bold */
+    cursor: pointer; /* Indicate clickable button */
+    margin-top: 10px; /* Add some space above the button */
+  }
+  
+  .add-to-cart:hover { /* Button hover effect */
+    background-color: #006000; /* Slightly darker green on hover */
+  }
+  
+  .buy-now {
+    background-color: #008000; /* Green buy now button */
+    color: white;
+    border: none; /* Remove border */
+    width: 120px;
+    height: 40px;
+    border-radius: 5px; /* Rounded corners for a more modern look */
+    font-weight: bold; /* Make button text bold */
+    cursor: pointer; /* Indicate clickable button */
+    margin-top: 10px; /* Add some space above the button */
+  }
+  .buy-now:hover { /* Button hover effect */
+    background-color: #006000;
+  }
+  .prod-details{
+    line-height: 2rem;
+    margin-left: 30px;
+  }
